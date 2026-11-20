@@ -72,7 +72,7 @@ async function handleContact(request, env) {
   }
 
   const to = env.CONTACT_TO_EMAIL || 'g3n.terceirosetor@gmail.com';
-  const from = env.CONTACT_FROM_EMAIL || 'TorreSoft Sistemas <comercial@torresoftbrasil.com.br>';
+  const from = env.CONTACT_FROM_EMAIL || 'TorreSoft Sistemas <torresoftbrasil@gmail.com>';
   const subject = `Solicitação pelo site - ${data.Empresa}`;
   const text = buildTextMessage(data);
   const html = buildHtmlMessage(data);

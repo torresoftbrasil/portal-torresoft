@@ -43,7 +43,7 @@ jobs:
           const escapePhp = (value) => String(value || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
           const config = {
             RESEND_API_KEY: process.env.RESEND_API_KEY,
-            CONTACT_FROM_EMAIL: process.env.CONTACT_FROM_EMAIL || 'TorreSoft Sistemas <comercial@torresoftbrasil.com.br>',
+            CONTACT_FROM_EMAIL: process.env.CONTACT_FROM_EMAIL || 'TorreSoft Sistemas <torresoftbrasil@gmail.com>',
             CONTACT_TO_EMAIL: 'g3n.terceirosetor@gmail.com',
             APP_EMAIL_HABILITADO: process.env.APP_EMAIL_HABILITADO || 'false',
             APP_EMAIL_REMETENTE: process.env.APP_EMAIL_REMETENTE || process.env.MAIL_USER,

@@ -54,7 +54,7 @@ O formulario envia para `/api/contact`, executado em PHP na Hostinger, usando a 
 Cadastre tambem estes secrets no GitHub:
 
 - `RESEND_API_KEY`: chave da API do Resend (opcional; sem ela, o portal usa o envio nativo da Hostinger).
-- `CONTACT_FROM_EMAIL`: remetente validado no Resend, por exemplo `TorreSoft Sistemas <comercial@torresoftbrasil.com.br>`.
+- `CONTACT_FROM_EMAIL`: remetente validado no Resend, por exemplo `TorreSoft Sistemas <torresoftbrasil@gmail.com>`.
 - `CONTACT_TO_EMAIL`: destinatario das solicitacoes. O portal esta configurado para `g3n.terceirosetor@gmail.com`.
 - `APP_EMAIL_HABILITADO`: `true` para ativar o SMTP.
 - `APP_EMAIL_REMETENTE`: e-mail Gmail remetente.

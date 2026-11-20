@@ -17,7 +17,7 @@
     <meta name="twitter:description" content="Conheça o G3N, sistema para gestão de ONGs, OSCs e instituições sociais. Organize projetos, convênios, financeiro, pessoas e prestação de contas.">
     <meta name="twitter:image" content="https://torresoftbrasil.com.br/img/torresoft-logo-azul-20260816.png">
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://torresoftbrasil.com.br/#organization","name":"TorreSoft Brasil","url":"https://torresoftbrasil.com.br/","logo":"https://torresoftbrasil.com.br/img/torresoft-logo-azul-20260816.png","telephone":"+55-34-99269-3522","email":"comercial@torresoftbrasil.com.br"},{"@type":"SoftwareApplication","@id":"https://torresoftbrasil.com.br/terceiro-setor.html#software","name":"G3N","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://g3n.torresoftbrasil.com.br/","description":"Sistema de gestão para organizações do terceiro setor, com painel de indicadores, cadastros, atendimentos, gestão administrativa, finanças, educação, portais, recursos humanos, auditoria e governança."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://torresoftbrasil.com.br/"},{"@type":"ListItem","position":2,"name":"Terceiro Setor","item":"https://torresoftbrasil.com.br/terceiro-setor.html"}]},{"@type":"WebPage","@id":"https://torresoftbrasil.com.br/terceiro-setor.html#webpage","url":"https://torresoftbrasil.com.br/terceiro-setor.html","name":"Sistema de Gestão para ONGs e OSCs | G3N TorreSoft","about":{"@id":"https://torresoftbrasil.com.br/terceiro-setor.html#software"},"inLanguage":"pt-BR"}]}
+    {"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://torresoftbrasil.com.br/#organization","name":"TorreSoft Brasil","url":"https://torresoftbrasil.com.br/","logo":"https://torresoftbrasil.com.br/img/torresoft-logo-azul-20260816.png","telephone":"+55-34-99288-3522","email":"torresoftbrasil@gmail.com"},{"@type":"SoftwareApplication","@id":"https://torresoftbrasil.com.br/terceiro-setor.html#software","name":"G3N","applicationCategory":"BusinessApplication","operatingSystem":"Web","url":"https://g3n.torresoftbrasil.com.br/","description":"Sistema de gestão para organizações do terceiro setor, com painel de indicadores, cadastros, atendimentos, gestão administrativa, finanças, educação, portais, recursos humanos, auditoria e governança."},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://torresoftbrasil.com.br/"},{"@type":"ListItem","position":2,"name":"Terceiro Setor","item":"https://torresoftbrasil.com.br/terceiro-setor.html"}]},{"@type":"WebPage","@id":"https://torresoftbrasil.com.br/terceiro-setor.html#webpage","url":"https://torresoftbrasil.com.br/terceiro-setor.html","name":"Sistema de Gestão para ONGs e OSCs | G3N TorreSoft","about":{"@id":"https://torresoftbrasil.com.br/terceiro-setor.html#software"},"inLanguage":"pt-BR"}]}
     </script>
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Para quem o G3N foi desenvolvido?","acceptedAnswer":{"@type":"Answer","text":"Para organizações do terceiro setor, como ONGs, OSCs, fundações e instituições sociais que precisam organizar sua gestão."}},{"@type":"Question","name":"Quais áreas podem ser organizadas?","acceptedAnswer":{"@type":"Answer","text":"O G3N apresenta módulos administrativos, financeiros, de pessoas, patrimônio, convênios, projetos, captação, prestação de contas, transparência e indicadores."}},{"@type":"Question","name":"Quais são os planos do G3N?","acceptedAnswer":{"@type":"Answer","text":"O G3N possui os planos Essencial, Profissional, Premium e Enterprise. Os recursos, condições comerciais e disponibilidade devem ser confirmados com a equipe comercial."}},{"@type":"Question","name":"Como solicitar uma demonstração?","acceptedAnswer":{"@type":"Answer","text":"Acesse a página de contato e envie o formulário comercial ou fale diretamente com a TorreSoft pelo WhatsApp."}}]}
@@ -132,6 +132,36 @@
         .g3n-demo-badge.warning { background: #fff1d6; color: #946200; }
         .g3n-demo-progress { height: 9px; border-radius: 99px; background: #e8edf5; overflow: hidden; }
         .g3n-demo-progress span { display: block; height: 100%; border-radius: inherit; background: linear-gradient(90deg, #3157d5, #00cbd8); }
+
+        .g3n-instagram-highlight {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-top: 24px;
+            padding: 12px 18px;
+            border: 1px solid rgba(255,255,255,.38);
+            border-radius: 999px;
+            background: linear-gradient(90deg, rgba(225,48,108,.28), rgba(131,58,180,.3));
+            color: #fff;
+            text-decoration: none;
+            transition: var(--transition-smooth);
+        }
+
+        .g3n-instagram-highlight:hover,
+        .g3n-instagram-highlight:focus-visible {
+            color: #fff;
+            border-color: #ff7ab2;
+            background: linear-gradient(90deg, rgba(225,48,108,.48), rgba(131,58,180,.48));
+            transform: translateY(-3px);
+        }
+
+        .g3n-instagram-highlight i { font-size: 1.35rem; color: #ffb2cf; }
+        .g3n-instagram-highlight small { display: block; color: rgba(255,255,255,.72); font-size: .72rem; text-transform: uppercase; letter-spacing: 1px; }
+        .g3n-instagram-highlight strong { display: block; font-size: .96rem; }
+
+        @media (max-width: 575px) {
+            .g3n-instagram-highlight { border-radius: 16px; width: 100%; justify-content: center; }
+        }
     </style>
 </head>
 <body>
@@ -181,6 +211,11 @@
                 <a href="https://g3n.torresoftbrasil.com.br/" target="_blank" rel="noopener noreferrer" class="btn-premium btn-lg">Acessar G3N</a>
                 <a href="contato.html" class="btn-outline-premium text-white border-white btn-lg">Falar com Especialista</a>
             </div>
+            <a class="g3n-instagram-highlight" href="https://www.instagram.com/g3n.terceirosetor/" target="_blank" rel="noopener noreferrer" aria-label="Acessar o Instagram do G3N">
+                <i class="fab fa-instagram"></i>
+                <span><small>Acompanhe o G3N no Instagram</small><strong>instagram.com/g3n.terceirosetor</strong></span>
+                <i class="fas fa-arrow-up-right-from-square ms-1" aria-hidden="true"></i>
+            </a>
         </div>
     </section>
 
@@ -381,13 +416,9 @@
                         <span class="small text-cyan fw-bold">PLANO G3N</span>
                         <h3 class="h4 mt-2">Essencial</h3>
                         <p>A base organizada para começar a operar com segurança.</p>
-                        <p class="h4 text-royal-blue">R$ 399,00 <small class="fs-6 text-muted">/ mês</small></p>
-                        <p class="small text-muted">Cobrança mensal · sem desconto.</p>
-                        <h4 class="h6 mt-2">Indicado para</h4>
-                        <p class="small">Pequenas instituições que precisam organizar a gestão e os cadastros.</p>
+                        <a href="contato.html" class="h4 text-royal-blue text-decoration-none">Clique para consultar</a>
                         <h4 class="h6 mt-2">Inclui</h4>
                         <ul class="small ps-3"><li>Beneficiários e famílias</li><li>Profissionais e voluntários</li><li>Unidades e serviços</li><li>Cadastros institucionais</li><li>Relatórios e dashboard básicos</li><li>Usuários, permissões e documentos</li><li>Histórico básico</li></ul>
-                        <p class="small mt-auto"><strong>Implantação:</strong> R$ 497,00. Módulos adicionais podem ser contratados separadamente.</p>
                         <a href="contato.html" class="btn-outline-premium mt-2" data-conversion="solicitar_demonstracao">Falar sobre o Essencial</a>
                     </div>
                 </div>
@@ -396,13 +427,9 @@
                         <span class="small text-cyan fw-bold">PLANO G3N</span>
                         <h3 class="h4 mt-2">Profissional</h3>
                         <p>A operação diária de atendimento em um único ambiente.</p>
-                        <p class="h4 text-royal-blue">R$ 699,00 <small class="fs-6 text-muted">/ mês</small></p>
-                        <p class="small text-muted">Cobrança mensal · sem desconto.</p>
-                        <h4 class="h6 mt-2">Indicado para</h4>
-                        <p class="small">Instituições em crescimento, com atendimentos frequentes, equipe e projetos.</p>
+                        <a href="contato.html" class="h4 text-royal-blue text-decoration-none">Clique para consultar</a>
                         <h4 class="h6 mt-2">Inclui</h4>
                         <ul class="small ps-3"><li>Tudo do Essencial</li><li>Atendimentos, evolução e histórico completo</li><li>Encaminhamentos, benefícios e agenda</li><li>Projetos e financeiro básico</li><li>Relatórios gerenciais e dashboard</li><li>Permissões avançadas</li><li>Gestão Educacional e Painel de Senhas</li></ul>
-                        <p class="small mt-auto"><strong>Implantação:</strong> R$ 897,00. Recursos avançados ficam no Premium.</p>
                         <a href="contato.html" class="btn-premium mt-2" data-conversion="solicitar_demonstracao">Falar sobre o Profissional</a>
                     </div>
                 </div>
@@ -411,13 +438,9 @@
                         <span class="small text-cyan fw-bold">PLANO G3N</span>
                         <h3 class="h4 mt-2">Premium</h3>
                         <p>Gestão completa para controlar a operação e demonstrar resultados.</p>
-                        <p class="h4 text-royal-blue">R$ 999,00 <small class="fs-6 text-muted">/ mês</small></p>
-                        <p class="small text-muted">Cobrança mensal · sem desconto.</p>
-                        <h4 class="h6 mt-2">Indicado para</h4>
-                        <p class="small">Instituições que precisam integrar finanças, captação, transparência e módulos especializados.</p>
+                        <a href="contato.html" class="h4 text-royal-blue text-decoration-none">Clique para consultar</a>
                         <h4 class="h6 mt-2">Inclui</h4>
                         <ul class="small ps-3"><li>Tudo do Profissional</li><li>Financeiro completo e avançado</li><li>Prestação de contas, projetos e indicadores</li><li>Transparência, georreferenciamento e captação</li><li>Doações, campanhas e gestão de doadores</li><li>Frente de Caixa / PDV e CIPA</li><li>RH básico e dashboards avançados</li></ul>
-                        <p class="small mt-auto"><strong>Implantação:</strong> R$ 1.497,00. Multiunidades incluídas.</p>
                         <a href="contato.html" class="btn-outline-premium mt-2" data-conversion="solicitar_demonstracao">Falar sobre o Premium</a>
                     </div>
                 </div>
@@ -426,13 +449,9 @@
                         <span class="small text-cyan fw-bold">PLANO G3N</span>
                         <h3 class="h4 mt-2">Enterprise</h3>
                         <p>A plataforma completa para governança e crescimento institucional.</p>
-                        <p class="h4 text-royal-blue">R$ 1.499,00 <small class="fs-6 text-muted">/ mês</small></p>
-                        <p class="small text-muted">Cobrança mensal · sem desconto.</p>
-                        <h4 class="h6 mt-2">Indicado para</h4>
-                        <p class="small">Redes, grandes instituições e organizações com operações complexas.</p>
+                        <a href="contato.html" class="h4 text-royal-blue text-decoration-none">Clique para consultar</a>
                         <h4 class="h6 mt-2">Inclui</h4>
                         <ul class="small ps-3"><li>Tudo do Premium</li><li>Governança, auditoria, logs e rastreabilidade</li><li>Aprovações e usuários avançados</li><li>Matriz, filiais e indicadores consolidados</li><li>RH, Jurídico e Financeiro completos</li><li>Compras, patrimônio, estoque e almoxarifado</li><li>API, webhooks e integrações personalizadas</li><li>Suporte prioritário</li></ul>
-                        <p class="small mt-auto"><strong>Implantação:</strong> a partir de R$ 2.497,00. Sem bloqueio funcional de módulos.</p>
                         <a href="contato.html" class="btn-premium mt-2" data-conversion="solicitar_demonstracao">Falar sobre o Enterprise</a>
                     </div>
                 </div>
@@ -477,7 +496,7 @@
                     <p class="text-muted">Liderando a transformação digital com inteligência empresarial e compromisso com o resultado.</p>
                     <div class="d-flex gap-3 mt-4">
                         <a href="#" class="text-white fs-5"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" class="text-white fs-5"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/g3n.terceirosetor/" target="_blank" rel="noopener noreferrer" class="text-white fs-5" aria-label="Instagram do G3N"><i class="fab fa-instagram"></i></a>
                         <a href="#" class="text-white fs-5"><i class="fab fa-facebook"></i></a>
                     </div>
                 </div>
@@ -500,9 +519,9 @@
                 </div>
                 <div class="col-lg-4">
                     <h6 class="text-white mb-4">Fale Conosco</h6>
-                    <p class="text-muted mb-2"><i class="fas fa-phone-alt me-2 text-cyan"></i> (34) 99269-3522</p>
-                    <p class="text-muted mb-2"><i class="fas fa-envelope me-2 text-cyan"></i> comercial@torresoftbrasil.com.br</p>
-                    <p class="text-muted"><i class="fas fa-map-marker-alt me-2 text-cyan"></i> Avenida Francisco Galassi, 1309 - Morada da Colina, Uberlândia - MG - Brasil</p>
+                    <p class="text-muted mb-2"><i class="fas fa-phone-alt me-2 text-cyan"></i> (34) 99288-3522</p>
+                    <p class="text-muted mb-2"><i class="fas fa-envelope me-2 text-cyan"></i> torresoftbrasil@gmail.com</p>
+                    <p class="text-muted"><i class="fas fa-map-marker-alt me-2 text-cyan"></i> Avenida Francisco Galassi, 1309 - Morada da Colina, Uberlândia - MG - CEP 38411-120 - Brasil</p>
                 </div>
             </div>
             <hr class="my-5 opacity-25">

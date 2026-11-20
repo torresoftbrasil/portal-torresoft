@@ -74,7 +74,7 @@ $config = load_contact_config();
 $apiKey = config_value($config, 'RESEND_API_KEY');
 
 $to = config_value($config, 'CONTACT_TO_EMAIL') ?: 'g3n.terceirosetor@gmail.com';
-$from = config_value($config, 'CONTACT_FROM_EMAIL') ?: 'TorreSoft Sistemas <comercial@torresoftbrasil.com.br>';
+$from = config_value($config, 'CONTACT_FROM_EMAIL') ?: 'TorreSoft Sistemas <torresoftbrasil@gmail.com>';
 $subject = 'Solicitacao pelo site - ' . $data['Empresa'];
 $smtpEnabled = strtolower(config_value($config, 'APP_EMAIL_HABILITADO')) === 'true';
 $smtpHost = config_value($config, 'MAIL_HOST') ?: 'smtp.gmail.com';
